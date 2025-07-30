@@ -15,7 +15,7 @@ print(20==20 or 0==0)
 
 #sequencing ----> ეს არის თანმიმდევრობა ანუ ჩვენი კოდი იკითხება ზევიდან ქვემოთ
 
-#interation ----> ეს არის გამეორება ანუ ერთი და იგივე int or str or float მეორდება ბევჯერ
+#iteration ----> ეს არის გამეორება ანუ ერთი და იგივე მეორდება ბევჯერ
 
 #selection ----> არჩევა
 
@@ -40,7 +40,8 @@ print(name) #ეს მოქმედება არის sequencing რა�
 
 
 
-#ფუნქციას range()  გადაეცემა თუ რამდეჯერ გამეორდება ჩვენს მიერ დაწერილი რიცხვი ან სახელი მაგ:for i in range()
+#ფუნქციას range()  გადაეცემა თუ რამდეჯერ გამეორდება ჩვენს მიერ დაწერილი რიცხვი ან სახელი მაგ:
+# for i in range(2)
     #print(gega)
 
 #დავალება 6
@@ -74,10 +75,10 @@ for i in range(32):
 h=input("choose any name")
 s=input("choose another name")
 y=input("choose third name")
-g=input("choose a number")
+g=int(input("choose a number"))
 
 
-print(h+s+y+g)
+print(str(g)+h+s+y)
 
 
 #დავალება 11
