@@ -31,34 +31,46 @@ if password == "1234" and username == "dachi":
                     money = money*3.15
                     Balance_gel = Balance_gel + money
                     print("Deposit sucsessful your balance is", Balance_gel )
-
-                                #pay
+               
+               elif valute not in ["gel", "usd", "eur"]:
+                print("please input (usd, gel or eur)")
+               
+                                   #pay
 
          if question == "pay":
-              where = input("Witch valute do you want to pay (usd gel eur) ")
-              payment = int(input("How much money do you want to pay?"))
-              if where == "gel":
-                   if payment <= Balance_gel :
-                        Balance_gel = Balance_gel - payment
-                        print("payment sucsessful!")
-                   else:
-                        print("payment failed not enough gel")
-              if where == "usd":
-                    if payment <= Balance_usd :
-                        Balance_usd = Balance_usd - payment
-                        print("payment sucsessful!")
-                    else:
-                        print("payment failed not enough usd")
-              if where == "eur":
-                   if payment <= Balance_eur :
-                        Balance_eur = Balance_eur - payment
-                        print("payment sucsessful!")
-                   else:
-                        print("payment failed not enough eur")
+          where = input("Which value do you want to pay (usd, gel, eur)? ")
+    payment = int(input("How much money do you want to pay? "))
+
+    if where == "gel":
+        if payment <= Balance_gel:
+            Balance_gel = Balance_gel - payment
+            print("Payment successful! Your balance is:", Balance_gel)
+        else:
+            print("Payment failed, not enough GEL")
+
+    elif where == "usd":
+        payment = payment * 2.69
+        if payment <= Balance_gel:
+            Balance_gel = Balance_gel - payment
+            print("Payment successful! Your balance is:", Balance_gel)
+        else:
+            print("Payment failed, not enough GEL")
+
+    elif where == "eur":
+        payment = payment * 3.15
+        if payment <= Balance_gel:
+            Balance_gel = Balance_gel - payment
+            print("Payment successful! Your balance is:", Balance_gel)
+        else:
+            print("Payment failed, not enough GEL")
+
+    elif where not in ["gel", "usd", "eur"]:
+        print("Please input (usd, gel or eur)")
+
                         
                              #conversion
 
-         if question == "conversion":
+          if question == "conversion":
               what = input("what do you want to convert? ")
               where = input("where do you want to convert? (usd, gel, eur)")
               money = int(input("how much money do you want to convert ?"))
@@ -124,12 +136,15 @@ if password == "1234" and username == "dachi":
 
 
                    
-                    
+                         
 
          
               
 else :
      print("Password or username is incorrect, Try again!")
+
+
+
                
 
                
