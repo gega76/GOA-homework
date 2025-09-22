@@ -48,14 +48,14 @@ print(names[1])
 sawmelebi = ["gomi","mwvadi","xinkali","caqafuli","casusuli","elarji"]
 
 
-for i in range(1):
-    print(sawmelebi)
+for i in range(0,6):
+    print(sawmelebi[i])
 
 
 i = 0
 
-while i < 1:
-    print(sawmelebi)
+while i < 6:
+    print(sawmelebi[i])
     i = i + 1
 
 
@@ -84,7 +84,7 @@ print (cemi_sia)
 # დავალება 7
 
 
-cxovelebi = ["zebra","vesapi","hipopotami","lion","tiger","girafe"]
+cxovelebi = ["zebra","vesapi","hipopotami","tiger","lion","girafe"]
 
 
 if cxovelebi[3] == "lion":
@@ -144,7 +144,7 @@ else:
 if letters_2[9] == "ე":
     print("საიდუმლო სიტყვა იწყება სწორად ")
 else:
-    print("ასაიდუმლო სიტყვა არასწორია")
+    print("საიდუმლო სიტყვა არასწორია")
 
 
 if letters_2[2] + letters_2[9] + letters_2[4] + letters_2[0] == "გელა":
@@ -157,26 +157,46 @@ else:
 
 # დავალება 11
 
+# ვარიანტი 1
+
 
 car_breand = ["mersedes","bugati","bmw","porshe","opel","nisan","subaru"]
 
 
-guest = int(input("choose any numbe between 1 - 7"))
+guest = int(input("choose any numbe between 0 - 7 "))
 
 
-if guest == 1:
-    print(car_breand[0])
-elif guest == 2:
-    print(car_breand[1])
-elif guest == 3:
-    print(car_breand[2])
-elif guest == 4:
-    print(car_breand[3])
-elif guest == 5:
-    print(car_breand[4])
-elif guest == 6:
-    print(car_breand[5])
-elif guest == 7:
-    print(car_breand[6])
+if guest >= 0 and guest <= 6:
+    print(car_breand[guest])
 else:
-    print("number not found")
+    print("number not found ")
+
+
+
+
+# ვარიანტი 2
+
+
+# if  guest == 1:
+#     print(car_breand[0])
+
+# elif guest == 2:
+#     print(car_breand[1])
+
+# elif guest == 3:
+#     print(car_breand[2])
+
+# elif guest == 4:
+#     print(car_breand[3])
+
+# elif guest == 5:
+#     print(car_breand[4])
+
+# elif guest == 6:
+#     print(car_breand[5])
+
+# elif guest == 7:
+#     print(car_breand[6])
+    
+# else:
+#     print("number not found")
