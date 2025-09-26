@@ -18,11 +18,11 @@ fruit = ["apple", "banana", "cherry", "grape", "kiwi", "orange"]
 
 
 
-print(fruit[3])
+print(fruit[2])
 
 print(fruit[-4])
 
-print(fruit[4])
+print(fruit[3])
 
 print(fruit[-3])
 
@@ -159,7 +159,7 @@ print(cvladi[7] + cvladi[0] + cvladi[10] + cvladi[2] + cvladi[3] + cvladi[0] + c
 string = "giorgi"
 
 
-for i in range(0,6):
+for i in range(6):
     print(string[i])
 
 
