@@ -22,7 +22,7 @@ print(numbers[-20:-9])
 # დავალება 3 
 
 
-names = ["gega","giorgi","lasha","gvanca","rezi","dachi","nugzari","alexsi","irakli","ilia","shota","zuka"]
+names = ["gega","giorgi","lasha","gvanca","rezi","dachi","nugzari","alexsi","irakli","ilia","shota","zuka","zura","goga","giga"]
 
 
 momxmarebeli = int(input("აირჩიე ნებისმიერი რიცხვი 3 დან 12 ჩათვლით "))
