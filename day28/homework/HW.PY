@@ -10,7 +10,7 @@ print(cars[0:5])
 
 print(cars[7:10])
 
-print(cars[2:7])
+print(cars[3:8])
 
 
 
@@ -23,7 +23,7 @@ names = ["gega","giorgi","lasha","gvanca","rezi","dachi","nugzari","alexsi","ira
 print(names[-16:-13])
 
 
-print(names[-11:-1])
+print(names[-11:])
 
 print(names[-9:-1])
 

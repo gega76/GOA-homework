@@ -52,7 +52,7 @@ print(letters[-3])
 string2 = "Information"
 
 
-print(string2[-9:-4])
+print(string2[-10:-4])
 
 
 # დავალება 6
