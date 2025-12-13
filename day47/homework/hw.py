@@ -55,7 +55,7 @@ print(numbers2)
 
 # 5)
 
-cities = ["tbilisi","qutaisi","zugdidi","new york"]
+cities = ["tbilisi","qutaisi","zugdidi","new york","didgori"]
 
 countries = ["Georgia", "france","italy","germany"]
 

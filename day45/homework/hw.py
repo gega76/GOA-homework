@@ -1,5 +1,3 @@
-#  დავალება 1
-
 
 # 1)
 
@@ -61,10 +59,3 @@ for i in range(len(name) - 1, -1, -1):
         name.pop(i)
 print(name)
 
-# 5) 
-
-name = ["Rezi", "Gega", "Dachi", "Saba", "Alexandre"]
-
-for i in name:
-    if name[i][0].upper() == "G" and name[i][-1] == i.upper():
-        print
