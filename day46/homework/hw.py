@@ -26,7 +26,7 @@ print(string)
 
 strings = ["Rezi", "Gega", "Dachi", "Saba", "Alexandre"]
 
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = [20,39,29,8323,498]
 
 for num in numbers:
     if 20 < num and num < 50:
