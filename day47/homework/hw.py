@@ -33,7 +33,7 @@ words = ["rezesidze", "gabunia", "Arkania"]
 words2 = []
 
 for i in words:
-    if len(i) < 6 or i[-1].isupper():
+    if len(i) < 6 or i[-1].upper():
         continue
     else:
         words2.append(i)
@@ -42,7 +42,7 @@ print(words2)
 
 # 4)
 
-numbers = [6.7,6.1,2.1,8.9]
+numbers = [6.7,6.1,2.1,8.9,2.8,2.9,30.1,39.1,29.2,9.1]
 
 numbers2 = []
 
@@ -57,7 +57,7 @@ print(numbers2)
 
 cities = ["tbilisi","qutaisi","zugdidi","new york","didgori"]
 
-countries = ["Georgia", "france","italy","germany"]
+countries = ["Georgia", "france","italy","germany","zimbabwe","brazil","russia","chineti","canada","argentina"]
 
 for i in range(5):
     countries.insert(i, cities[i])
