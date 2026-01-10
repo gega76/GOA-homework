@@ -49,39 +49,39 @@
 #????
 
 
-# დავალება 6
+# # დავალება 6
 
-text = "PyThOn"
-result = []
+# text = "PyThOn"
+# result = []
 
-for i in text:
-    if i == i.lower():
-        result.append("+")
-    else:
-        result.append("-")
-# მერე ვეღარ გავიგე
-
-
-# დავალება 7
-
-words = "i am from georgia"
+# for i in text:
+#     if i == i.lower():
+#         result.append("+")
+#     else:
+#         result.append("-")
+# # მერე ვეღარ გავიგე
 
 
-empty = []
+# # დავალება 7
 
-i = 0
-while i < len(words):
-    word = ""
+# words = "i am from georgia"
 
-# მერე ვეღარ გავიგე რა გამეკეთბინა
+
+# empty = []
+
+# i = 0
+# while i < len(words):
+#     word = ""
+
+# # მერე ვეღარ გავიგე რა გამეკეთბინა
 
 # დავალება 8
 
 
 text = "Python"
-reversed_text = ""
+new_text = ""
 
-for i in range(len(text)-1, -1, -1):
-    reversed_text += text[i].upper()
+for i in range(len(text)):
+    new_text += text[i].upper()
 
-print(reversed_text)
+print(new_text)
