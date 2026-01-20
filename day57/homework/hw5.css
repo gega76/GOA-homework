@@ -1,0 +1,41 @@
+
+
+
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    background-color: black;
+}
+
+main h1{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    background-color: black;
+}
+
+main p{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+    background-color: black;
+}
+
+main select{
+    font-size: 25px;
+    color: red;
+    background-color: black;
+}
+
+main label{
+    font-size: 25px;
+    color: red;
+    background-color: black;
+}
+
+header nav{
+    font-size: 25px;
+    
+}
