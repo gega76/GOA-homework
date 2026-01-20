@@ -1,8 +1,15 @@
 
 
-div{
+main div{
     font-size: 46px;
     color: purple;
     background-color: brown;
     border: 7px yellow solid;
+}
+
+header div{
+     font-size: 38px;
+     color: blue;
+     background-color: green;
+     border: 3px red solid;
 }

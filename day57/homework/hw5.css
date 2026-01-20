@@ -37,5 +37,13 @@ main label{
 
 header nav{
     font-size: 25px;
-    
+}
+
+img{
+    width: 400px;
+}
+
+body{
+    text-align: center;
+    background-color: aqua;
 }
