@@ -1,17 +1,17 @@
 # # დავალება 1
 
 
-# nums = [2,4,1,5,6,9,10]
+nums = [2,4,1,5,6,9,10]
 
-# biggest = nums[0]
+biggest = nums[0]
 
-# second_biggest = 0
+second_biggest = 0
 
-# for i in nums:
-#     if i > biggest:
-#         second_biggest = biggest
-#         biggest = i
-# print(second_biggest)
+for i in nums:
+    if i > biggest:
+        second_biggest = biggest
+        biggest = i
+print(second_biggest)
 
 
 # 2) მომხმარებელს შემოატანინეთ წინადადება და დაითვალეთ თუ ამ წინადადებაში რამდენი სიტყვის
@@ -46,24 +46,24 @@ print(namee==name)
 
 
 
-# #4) შექმენით არეული რიცხვებით სავსე გრძელი სია და 2 ცარიელი სია, ერთ სიაში ჩააგდეთ ყველა ის რიცხვი რომელიც არის ლუწი და 
-# # დგას კენტ ინდექსზე, ხოლო მეორე სიაში ჩააგდეთ ყველა ის რიცხვირომელიც არის ლუწი და დგას კენტ ინდექსზე, გამოიყენეთ for ციკლი.
+#4) შექმენით არეული რიცხვებით სავსე გრძელი სია და 2 ცარიელი სია, ერთ სიაში ჩააგდეთ ყველა ის რიცხვი რომელიც არის ლუწი და 
+# დგას კენტ ინდექსზე, ხოლო მეორე სიაში ჩააგდეთ ყველა ის რიცხვირომელიც არის ლუწი და დგას კენტ ინდექსზე, გამოიყენეთ for ციკლი.
 
-# nums = [2,4,1,5,6,9,10]
+nums = [2,4,1,5,6,9,10]
 
-# empty = []
+empty = []
 
-# empty2 = []
+empty2 = []
 
-# for i in nums:
-#     if i % 2 == 0 and nums.index(i) % 2 == 1:
-#         empty.append(i)
-#     elif i % 2 == 1 and nums.index(i) % 2 == 0:
-#         empty2.append(i)
+for i in nums:
+    if i % 2 == 0 and nums.index(i) % 2 == 1:
+        empty.append(i)
+    elif i % 2 == 1 and nums.index(i) % 2 == 0:
+        empty2.append(i)
 
-# print("რიცხვები რომელიც დგას კენტს ინდექსზე და არის ლუწი", empty)
+print("რიცხვები რომელიც დგას კენტს ინდექსზე და არის ლუწი", empty)
 
-# print("რიცხვები რომელიც დგას ლუწ ინდექსზე და არის კენტი", empty2)
+print("რიცხვები რომელიც დგას ლუწ ინდექსზე და არის კენტი", empty2)
 
 
 
@@ -82,3 +82,23 @@ print(numbers)
 
 # 6)  მომხმარებელს შემოატანინეთ წინადადება და დაპრინტეთ ამ წინადადებაში მყოფი 
 # ყველაზე გრძელი სიტყვა, გამოიყენეთ while ციკლი, არ გამოიყენოთ max() ფუნქცია.
+
+
+მომხამრებელი = input("Type any sentence: ")
+word = ""
+word2 = ""
+i = 0
+
+while i < len(მომხამრებელი):
+    if მომხამრებელი[i] != " ":
+        word2 += მომხამრებელი[i]
+    else:
+        if len(word2) > len(word):
+            word = word2
+        word2 = ""
+    i += 1
+
+if len(word2) > len(word):
+    word = word2
+
+print("Longest word is:", word)
