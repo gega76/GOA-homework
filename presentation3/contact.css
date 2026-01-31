@@ -3,54 +3,54 @@ body {
     color: white;
 }
 
-.header {
+header {
     text-align: center;
     padding: 40px 0;
     border-bottom: 1px solid #333;
 }
 
-.header h1 {
+header h1 {
     font-size: 48px;
 }
 
-.header p {
+header p {
     color: #aaa;
 }
 
-.contact-main {
+main {
     display: flex;
     justify-content: space-between;
     padding: 60px 10%;
 }
 
-.contact-div {
+.div1 {
     width: 45%;
 }
 
-.contact-div h2 {
+.div1 h2 {
     font-size: 32px;
 }
 
-.contact-div p {
+.div1 p {
     color: #bbb;
 
 }
 
-.contact-div ul li {
+.div1 ul li {
     margin-bottom: 10px;
 }
 
 
-.contact-form {
+.div2 {
     width: 45%;
 }
 
-.contact-form form {
+.div2 form {
     display: flex;
     flex-direction: column;
 }
 
-.contact-form input, .contact-form textarea {
+.div2 input, .div2 textarea {
     margin-bottom: 15px;
     padding: 12px;
     background-color: #111;
@@ -58,12 +58,12 @@ body {
     color: white;
 }
 
-.contact-form textarea {
+.div2 textarea {
     height: 120px;
     resize: none;
 }
 
-.contact-form button {
+.div2 button {
     padding: 15px;
     background-color: white;
     color: black;
@@ -72,11 +72,11 @@ body {
     font-weight: bold;
 }
 
-.contact-form button:hover {
+.div2 button:hover {
     background-color: #ccc;
 }
 
-.footer {
+footer {
     text-align: center;
     border-top: 1px solid #333;
     color: #777;
