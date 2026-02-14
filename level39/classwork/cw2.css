@@ -1,0 +1,25 @@
+/* #g1{
+    text-decoration: pink double underline;
+}
+
+#g2{
+    text-decoration: green dashed line-through;
+}
+
+#g3{
+    text-decoration: blue dotted overline;
+} */
+
+#Wash{
+    color: rgb(128, 0, 247);
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(246, 8, 250);
+    text-transform: uppercase;
+}
+
+#greek{
+    color: black;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px lime;
+    text-transform: uppercase;
+}

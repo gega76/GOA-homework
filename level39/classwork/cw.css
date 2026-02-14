@@ -1,0 +1,16 @@
+#g1{
+    text-decoration-line: overline;
+}
+
+#g2{
+    text-decoration-line: line-through;
+}
+
+#g3{
+    text-decoration-line: underline;
+}
+
+
+#g4{
+    text-decoration-line: none;
+}
