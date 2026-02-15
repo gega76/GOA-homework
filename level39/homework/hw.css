@@ -1,0 +1,50 @@
+#d1{
+    text-align: right;
+    text-decoration: underline dotted green;
+}
+
+#d2{
+    text-align: center;
+    text-decoration: line-through solid black;
+}
+
+
+#d3{
+    text-align: center;
+    text-decoration: underline solid black;
+}
+
+
+#d4{
+    text-align: right;
+    text-decoration: line-through dotted green;
+}
+
+#d5{
+    text-align: left;
+    text-decoration: line-through solid black;
+}
+
+#d6{
+    text-align: left;
+    text-decoration: overline solid black;
+}
+
+#d7{
+    text-align: right;
+    color: rgb(0,255,0);
+    text-decoration: overline solid green;
+}
+
+
+#d8{
+    text-align: center;
+    color: gray;
+    text-decoration: overline solid gray;
+}
+
+
+#d9{
+    text-align: right;
+    text-decoration:  dotted underline green;
+}

@@ -1,0 +1,36 @@
+#p1{
+    color: rgb(0,0,0);
+    text-transform: capitalize;
+    font-size: 40px;
+    text-shadow: 4px 5px 4px;
+}
+
+
+#p2{
+    color: gray;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-shadow: 3px -5px 4px;
+}
+
+#p3{
+    color: rgb(234, 10, 115);
+    text-transform: capitalize;
+    font-size: 40px;
+    text-shadow: 0px 0px 8px rgb(0, 38, 255);
+}
+
+
+#p4{
+    color: rgb(0,255,0);
+    text-transform: capitalize;
+    font-size: 40px;
+    text-shadow: 0px 2px 10px greenyellow;
+}
+
+#p5{
+    color: black;
+    text-transform: capitalize;
+    font-size: 40px;
+    text-shadow: 0px 2px 10px lime;
+}
