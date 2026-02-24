@@ -1,0 +1,17 @@
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+
+.card:hover{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+
+.card:active{
+    border: 20px solid green;
+}
