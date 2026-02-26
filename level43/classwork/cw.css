@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+}
+
+
+
+
+th,td{
+    border: 3px solid black;
+}
+
+tr:nth-child(1) {
+    background-color: green;
+    color: white;
+}
+
+
+tr:nth-child(3) {
+    background-color: #2aa3b0;
+    color: white;
+}
+
+
+tr:nth-child(5) {
+    background-color: #2aa3b0;
+    color: white;
+}
