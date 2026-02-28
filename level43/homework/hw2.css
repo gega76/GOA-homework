@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid aqua;
+}
+
+
+td{
+    border: 1px aqua solid;
+    text-align: center;
+}
+
+tr:nth-child(1){
+    background-color: aqua;
+}

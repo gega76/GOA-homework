@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid white;
+}
+
+
+
+tr:nth-child(1){
+    background-color: aqua;
+}
+
+tr:nth-child(3){
+    color: aqua;
+}
