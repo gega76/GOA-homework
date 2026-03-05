@@ -1,0 +1,15 @@
+label{
+    color: red;
+}
+
+input{
+    border: 2px red solid;
+    border-radius: 15px;
+    outline: none;
+    color: red;
+}
+
+
+input:hover{
+    background-color: rgb(169, 26, 26);
+}

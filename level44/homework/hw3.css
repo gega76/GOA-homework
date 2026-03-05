@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(140, 237, 237);
+}
+
+label{
+    color: white;
+}
+
+
+input{
+    border: 1px white solid;
+    border-radius: 10px;
+    outline: none;
+}
