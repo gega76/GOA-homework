@@ -1,6 +1,16 @@
 #codewars 1
 
+def accum(st):
+    word = ""
 
+
+    for i in range(len(st)):
+        word += st[i].upper() + st[i].lower() * i
+
+        if i != len(st) - 1:
+            word += "-"
+
+    return word
 
 
 #codewars 2
@@ -8,6 +18,7 @@
 
 def litres(time):
     return int(time * 0.5)
+
 
 
 #codewars 3
