@@ -1,0 +1,7 @@
+input{
+    background-color: red;
+    border-left: 20px dashed green;
+    border-right: 20px dotted purple;
+    border-top: 20px solid rgb(225, 255, 0);
+    border-bottom: 20px double blue;
+}
