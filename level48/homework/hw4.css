@@ -1,0 +1,15 @@
+.k1{
+    width: 500px;
+    height: 200px;
+    border: 5px solid green;
+    display: flex;
+    align-items: center;
+    /*align-items: start; align-items: end*/
+}
+
+.d1{
+    background-color: purple;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+}
