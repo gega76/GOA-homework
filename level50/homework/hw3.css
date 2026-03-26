@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.d1{
+    border: 5px solid red;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#k1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}

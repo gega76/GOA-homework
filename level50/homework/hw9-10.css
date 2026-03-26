@@ -1,0 +1,13 @@
+.k1{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+
+#d1{
+    width: 120px;
+    background-color: purple;
+    border: 3px solid green;
+}

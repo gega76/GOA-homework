@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: aqua;
+}
+
+.w1 {
+    background-color: white;
+    width: 320px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(0, 94, 255);
+    margin-bottom: 15px;
+}
+
+.d1, .d2 {
+    font-size: 16px;
+    color: rgb(0, 94, 255);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid rgb(0, 94, 255);
+    border-radius: 3px;
+}

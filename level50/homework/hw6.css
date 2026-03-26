@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.parent{
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#d1{
+    width: 100px;
+    height: 100px;
+}
