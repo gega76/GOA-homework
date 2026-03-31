@@ -1,0 +1,12 @@
+.parent{
+    display: flex;
+    width: 850px;
+    height: 51px;
+    border: 5px solid black;
+    justify-content: space-between;
+}
+
+#p1{
+    background-color: purple;
+    flex-grow: 67;
+}

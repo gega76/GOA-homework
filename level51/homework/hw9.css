@@ -1,0 +1,31 @@
+.parent{
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+}
+
+.c1:hover{
+    flex-basis: 100px;
+}
+
+.c2:hover{
+    flex-basis: 200px;
+}
+
+.c3:hover{
+    flex-basis: 300px;
+}
+
+
+.c4:hover{
+    flex-basis: 150px;
+}
