@@ -62,7 +62,23 @@ def find_short(s):
 
 # დავალება 5
 
-
+def remove(s):
+    new = ""
+    count = 0
+    
+    
+    i = len(s) - 1
+    while i >= 0 and s[i] == "!":
+        count += 1
+        i -= 1
+        
+    for d in s:
+        if d != "!":
+            new += d
+            
+    for g in range(count):
+        new += "!"
+    return new
 
 
 # დავალება 6
