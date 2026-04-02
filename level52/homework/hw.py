@@ -86,3 +86,15 @@ def points(games):
 
 # დავალება 8
 
+def calculator(txt):
+    black = 0
+    new = txt.split()
+    if new[1] == "*":
+        black += len(new[0]) * len(new[2])
+    elif new[1] == "+":
+        black += len(new[0]) + len(new[2])
+    elif new[1] == "-":
+        black += len(new[0]) - len(new[2])
+    elif new[1] == "//":
+        black += len(new[0]) // len(new[2])
+    return "." * black
