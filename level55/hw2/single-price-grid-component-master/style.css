@@ -55,7 +55,7 @@ main {
     background-color: hsl(179, 62%, 43%); 
     padding: 40px;
     flex: 1;
-    height: 350px;
+
 }
 
 .h31, .h32 {
@@ -101,7 +101,6 @@ main {
     background-color: hsl(178, 61%, 35%); 
     padding: 40px;
     flex: 1;
-    height: 350px;
 }
 
 .ul1 {
