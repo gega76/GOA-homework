@@ -1,33 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-
 body{
-    background-color: rgb(236, 242, 255);
     height: 100vh;
     font-family: "Hanken Grotesk", sans-serif;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-.parent{
-    background-color: white;
-    width: 450px;
+    justify-content: center;
+    background-color: #ecf2ff;
 }
 
-.parent1{
-    width: 45%;
-    background-color: hsla(256, 72%, 46%, 1);
+p{
+    font-size: 18px;
+}
+
+#parent{
+    display: flex;
+    width: 650px;
+
+}
+
+#result{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: #4936f2;
+    width: 50%;
+    border-radius: 25px;
 }
 
-.p1{
-    margin-top: 15px;
+#h1{
+    color: #CAC9FF;
+    opacity: 80%;
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+#circle{
+    background-color: #4b25cf;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#big-p{
+    color: #fefdff;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+#small-p{
+    color: #877bff;
+    opacity: 90%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#h2{
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+}
+
+#p2{
+    color: #CAC9FF;
+    font-size: 16px;
+    opacity: 80%;
+    width: 70%;
+    text-align: center;
+    line-height: 1.3;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+#summary{
+    width: 50%;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+#h3{
+    padding-left: 20px;
+}
+
+#stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stats2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
 }
