@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
 
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,85 +12,145 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: black; 
 }
 
 #body{
-    width: 1300px;
-    height: 820px;
-    border: 1px solid red;
-    background-color: white;
+    width: 1440px;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
 }
-
 
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 25px 40px;
+    align-items: center;
+    padding: 30px 40px;
 }
-
 
 #headerdiv{
     display: flex;
     align-items: center;
-    gap: 55px;
+    gap: 60px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(0, 0%, 8%); 
+    cursor: pointer;
 }
 
 ol{
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 40px;
     list-style: none;
-    opacity: 90%;
-    font-size: 13px;
-    font-weight: 600;
-    color: rgb(98, 94, 94);
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%); 
 }
 
+ol li{
+    cursor: pointer;
+}
+
+ol li:hover{
+    color: hsl(0, 0%, 8%);
+}
 
 #buttondiv{
     display: flex;
     align-items: center;
-    gap: 35px;
-}
-
-h2{
-    font-size: 32px;
-}
-
-#login{
-    border: none;
-    background-color: white;
-    font-size: 11px;
+    gap: 40px;
 }
 
 .btn{
-    font-weight: 600;
-    color: rgb(98, 94, 94);
-    opacity: 90%;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+    background: none;
+    border: none;
 }
-
 
 #reg{
-    border: 1px solid black;
-    border-radius: 13px;
-    padding: 10px 18px;
-    background-color: white;
-    font-size: 13px;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 15px;
+    padding: 12px 22px;
 }
 
-.maindiv{
-    
+#reg:hover{
+    border-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 8%);
 }
+
+
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 50px 150px;
+    margin-top: 20px;
+}
+
 .textdiv{
+    width: 55%;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    align-items: start;
-    width: 0cqmax;
+    justify-content: space-between; 
+    padding-top: 100px;
+}
+
+.content-wrapper h1{
+    font-size: 80px;
+    line-height: 1;
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.content-wrapper p{
+    font-size: 18px; 
+    line-height: 1.6;
+    color: hsl(0, 0%, 41%);
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.learn-more{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    padding: 16px 30px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 8%);
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.learn-more:hover{
+    color: hsl(0, 0%, 8%);
 }
 
 .imgdiv{
     display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+#mainimg{
+    width: 480px; 
+}
+
+#Remote{
+    width: 530px;
+}
+
+#team{
+    width: 480px;
 }
