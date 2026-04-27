@@ -67,7 +67,17 @@ def adjacent_element_product(array):
 
 #codewars 7
 
-
+def show_sequence(n):
+    if n < 0:
+        return str(n) + "<0"
+    elif n ==0:
+        return "0=0"
+    st = ""
+    jami = 0
+    for i in range(n+1):
+        st+=f"{str(i)}+"
+        jami += i
+    return st[0:-1]+" = "+ str(jami)
 
 
 #codewars 8
@@ -84,3 +94,11 @@ def factorial(n):
 
 #codewars 10
 
+def nb_dig(n, d):
+    count = 0
+    
+    for i in range(n+1):
+        square = i *  i
+        count += str(square).count(str(d))
+        
+    return count
