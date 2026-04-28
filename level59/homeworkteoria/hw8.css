@@ -1,0 +1,18 @@
+.parent{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    border: 10px solid red;
+}
+
+.zebra{
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+.p1{
+    position: absolute;
+    left: 800;
+    top: 0;
+}

@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 600px;
+    border: 10px solid red;
+}
+
+.box{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.green{
+    border: 5px solid yellow;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
