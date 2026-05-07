@@ -7,9 +7,8 @@
 body{
     height: 100vh;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
-    margin-top: 90px;
 }
 
 .parent{
@@ -20,6 +19,6 @@ body{
 
 
 .parent:hover{
-    transform: scale(0.5) rotate(40) translateX(-50px);
+    transform: scale(0.5) rotate(40deg) translateX(-50px);
     transform-origin: bottom left;
 }

@@ -7,9 +7,8 @@
 body{
     height: 100vh;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
-    margin-top: 90px;
 }
 
 .parent{
