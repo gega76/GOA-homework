@@ -123,6 +123,10 @@ input:focus{
     border-color: #6348fe;
 }
 
+input::placeholder{
+    color: lightgrey;
+}
+
 .div7{
     display: flex;
     gap: 20px;
