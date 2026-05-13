@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bb{
+    width: 200px;
+    height: 200px;
+    color: red;
+    transition: all 4s;
+    transition-delay: 2s;
+}
+
+.bb:active{
+    transform: scale(0.9);
+    rotate: 45deg;
+}

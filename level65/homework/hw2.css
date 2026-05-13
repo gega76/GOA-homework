@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bb{
+    width: 200px;
+    height: 200px;
+    color: red;
+    border-radius: 20px;
+    background-color: green;
+    transition: color 0.2s , border-radius 0.5s , background-color 0.7s , ;
+    transition-delay: 0.3s;
+}
+
+.bb:hover{
+    color: blue;
+    background-color: yellow;
+    border-radius: 50px;
+}

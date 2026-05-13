@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ah{
+    color: red;
+    text-decoration: none;
+    transition: color 1.2s, text-decoration 1s, font-size 0.3s;
+    
+}
+
+.ah:hover{
+    color: blue;
+    text-decoration: underline red;
+    font-size: 40px;
+}
