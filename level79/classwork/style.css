@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    border: 2px solid red;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(100px , 1fr));
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.child{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZu4h8OPj2h5t5RmCxqiEC1Wt-EUF4xHChZU7-E4lbWapt8J3UQi2mAF29&s=10");
+    height: 50px;
+    width: 50px;
+    border: 1px solid green;
+}
