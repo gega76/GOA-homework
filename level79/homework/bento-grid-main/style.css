@@ -29,54 +29,61 @@ body{
     background-color: rgba(250, 238, 226);
     grid-area: 1/1/3/2;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
 
 .h1{
-    margin: 50px 0px 0px 30px;
     font-weight: 600;
+    font-size: 35px;
+    width: 200px;
 }
 
 .quicker{
-    margin-left: 30px;
     color: rgba(131, 97, 215);
 }
 
 .img1{
-    width: 175px;
-    margin-left: 40px;
-    margin-top: 15px;
+    width: 200px;
 }
 
 .child2{
     background-color: rgba(255, 204, 105);
     grid-area: 3/1/5/2;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
 }
 
 .h2{
-    margin-top: 15px;
-    margin-left: 20px;
     width: 200px;
     font-weight: 600;
 }
 
 .img2{
     width: 215px;
-    margin-left: 25px;
-    margin-top: 45px;
 }
 
 .child3{
     background-color: rgba(118, 81, 220);
     grid-area: 1/2/2/4;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .h3{
     color: white;
     font-size: 55px;
-    margin-left: 20px;
-    margin-top: 35px;
     width: 475px;
     text-align: center;
     font-weight: 500;
@@ -88,14 +95,11 @@ body{
 
 .img3{
     width: 160px;
-    margin-left: 175px;
-    margin-top: 10px;
 }
 
 .p1{
     color: white;
-    opacity: 50%;
-    margin-left: 155px;
+    opacity: 80%;
 }
 
 
@@ -104,44 +108,44 @@ body{
     grid-area: 2/2/4/3;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .img4{
     width: 275px;
-    margin-left: 23px;
-    margin-top: 25px;
+    margin-left: 95px;
 }
 
 .h4{
-    font-size: 25px;
+    font-size: 27px;
     width: 200px;
-    margin-left: 15px;
-    margin-top: 25px;
 }
 
 .child5{
     background-color: white;
     grid-area: 4/2/5/3;
     border-radius: 10px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .p2{
     font-size: 60px;
-    margin-left: 15px;
-    margin-top: 10px;
     font-weight: 500;
+    margin-right: 30px;
 }
 
-.p3{
-    margin-left: 15px;
-    margin-top: 20px;
-}
+
 
 .img5{
-    width: 150px;
-    margin-left: 20px;
-    margin-top: 50px;
+    width: 175px;
 }
 
 .child6{
@@ -149,20 +153,22 @@ body{
     grid-area: 2/3/4/4;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
-.h5 {
+.h5{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     width: 200px;
-    margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 105px;
 }
 
 .img6{
     width: 210px;
-    margin-left: 20px;
-    margin-top: 50px;
 }
 
 
@@ -170,20 +176,21 @@ body{
     background-color: rgba(118, 81, 220);
     grid-area: 4/3/5/5;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .img7{
     width: 240px;
     margin-left: 20px;
-    margin-top: 25px;
-    position: absolute;
 }
 
 
 .h6{
     color: white;
-    margin-left: 275px;
-    margin-top: 60px;
+    opacity: 90%;
+    font-size: 35px;
 }
 
 
@@ -192,24 +199,25 @@ body{
     grid-area: 1/4/4/5;
     border-radius: 10px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 
 .h7{
-    margin-left: 20px;
-    margin-top: 35px;
     font-size: 25px;
     width: 175px;
 }
 
 .img8{
     width: 350px;
-    margin-left: 25px;
-    margin-top: 35px;
+    margin-left: 175px;
 }
 
 .p4{
     width: 175px;
-    margin-left: 30px;
-    margin-top: 15px;
+    font-size: 17px;
 }
