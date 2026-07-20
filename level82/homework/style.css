@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 24px 117px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 27.77px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    gap: 82.31px;
+}
+
+.img1{
+    width: 79.33333587646484px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.xinkalimenu{
+    display: none;
+}
+
+.section1{
+    background-color: #F0EFEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 117px;
+}
+
+
+.img2{
+    width: 40%;
+}
+
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 42px;
+    width: 500px;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+}
+
+.div2 h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.div3 p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.div3 button{
+    width: 130px;
+    height: 36px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:1110px){
+    .div2 h1{
+        font-size: 40px;
+    }
+
+    .div3 p{
+        font-size: 20px;
+    }
+
+    .img2{
+        width: 300px;
+    }
+}
+
+
+@media (max-width:935px){
+    header{
+        padding: 24px 60px;
+    }
+
+    .section1{
+        padding: 15px 35px;
+    }
+}
+
+
+@media (max-width:800px){
+    header{
+        padding: 24px 30px;
+    }
+}
+
+
+@media (max-width:750px){
+    ul{
+        display: none;
+    }
+
+    .xinkalimenu{
+        display: block;
+    }
+
+    .search{
+        width: 33px;
+    }
+
+    .camera{
+        width: 20px;
+    }
+
+    .lock{
+        width: 28px;
+    }
+    
+
+    .section1{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img2{
+        width: 80%;
+    }
+
+    .div2{
+        width: 100%;
+    }
+}
+
+
