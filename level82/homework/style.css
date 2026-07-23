@@ -96,6 +96,84 @@ nav{
     color: white;
 }
 
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 60px 0px;
+    gap: 52px;
+}
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+}
+
+.div5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+}
+
+.p1{
+    width: 42%;
+    font-size: 20px;
+}
+
+.p2{
+    font-size: 20px;
+}
+
+.div4 h1{
+    font-size: 36px;
+    padding: 0px 20px;
+}
+
+.sellers{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.div6{
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    flex-direction: column;
+}
+
+.cards h3{
+    width: 50%;
+    font-size: 17px;
+}
+
+.cards p{
+    font-size: 17px;
+}
+
+.cards h5{
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 0px 25px;
+}
+
+
 @media (max-width:1110px){
     .div2 h1{
         font-size: 40px;
@@ -108,6 +186,20 @@ nav{
     .img2{
         width: 300px;
     }
+
+    .div4 h1{
+        font-size: 30px;
+    }
+
+    .div5 p{
+        font-size: 16px;
+    }
+
+    .p1{
+        width: 80%;
+    }
+
+
 }
 
 
@@ -119,12 +211,44 @@ nav{
     .section1{
         padding: 15px 35px;
     }
+
+    .div4 h1{
+        font-size: 25px;
+    }
+
+    .div5 p{
+        font-size: 14px;
+    }
 }
 
 
 @media (max-width:800px){
     header{
         padding: 24px 30px;
+    }
+
+    .cards img{
+        width: 200px;
+    }
+
+    .sellers{
+        font-size: 26px;
+    }
+
+    .cards h3{
+        font-size: 13px;
+    }
+
+    .cards h5{
+        font-size: 13px;
+    }
+
+    .cards p{
+        font-size: 13px;
+    }
+    
+    .cards{
+        gap: 13px;
     }
 }
 
