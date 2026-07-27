@@ -320,6 +320,7 @@ nav{
     background-color: rgba(240, 240, 240, 1);
     width: 100%;
     flex-wrap: wrap;
+    height: 550px;
 }
 
 .sameediv{
@@ -352,6 +353,10 @@ nav{
 @media (max-width:1360px){
     .imgdiv{
         background-color: white;
+    }
+
+    .sameediv h5{
+        padding: 0px 0px 50px 0px;
     }
 }
 
