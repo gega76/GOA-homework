@@ -302,7 +302,7 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 100px 0px 0px 0px;
-    gap: 300px;
+    gap: 150px;
 }
 
 .section5 h1{
@@ -316,8 +316,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 150px;
-    background-color: rgba(240, 240, 240, 1);
+    gap: 100px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -328,8 +327,6 @@ nav{
     align-items: center;
     justify-content: center;
     gap: 25px;
-    position: relative;
-    bottom: 175px;
 }
 
 .sameediv h2{
@@ -356,7 +353,7 @@ nav{
     align-items: center;
     text-align: center;
     gap: 25px;
-    padding: 50px 0px 50px 0px;
+    padding: 150px 0px 50px 0px;
 }
 
 .textdiv{
@@ -419,9 +416,6 @@ nav{
 
 
 @media (max-width:1360px){
-    .imgdiv{
-        background-color: white;
-    }
 
     .sameediv h5{
         padding: 0px 0px 50px 0px;
