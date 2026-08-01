@@ -250,6 +250,48 @@ main{
 }
 
 
+.section4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 100px;
+}
+
+.s4img{
+    width: 37%;
+}
+
+.txtdiv5{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.txtdiv5 h1{
+    color: #4D4D4D;
+    width: 500px;
+}
+
+
+.txtdiv5 p{
+    color: #717171;
+    font-size: 15px;
+    width: 87%;
+}
+
+.txtdiv5 button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
 @media (max-width:1020px){
     header{
         padding: 30px 40px;
@@ -274,6 +316,24 @@ main{
 
     .samediv h1{
         font-size: 24px;
+    }
+
+    .txtdiv5 h1{
+        font-size: 27px;
+        width: 85%;
+    }
+
+    .txtdiv5 p{
+        font-size: 13px;
+        width: 95%;
+    }
+
+    .s4img{
+        width: 300px;
+    }
+
+    .section4{
+        padding: 50px 20px;
     }
 }
 
@@ -303,6 +363,20 @@ main{
 
     .imgdiv2{
         flex-direction: column;
+    }
+
+    .section4{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .txtdiv5{
+        align-items: center;
+        text-align: center;
+    }
+
+    .s4img{
+        width: 60%;
     }
 }
 
@@ -340,6 +414,15 @@ main{
     .section2{
         gap: 50px;
     }
+
+    .txtdiv5 h1{
+        font-size: 22px;
+    }
+
+    .txtdiv5 p{
+        width: 80%;
+        font-size: 12px;
+    }
 }
 
 @media (max-width:430px){
@@ -361,5 +444,7 @@ main{
         width: 80%;
     }
 
-
+    .s4img{
+        width: 90%;
+    }
 }
