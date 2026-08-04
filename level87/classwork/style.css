@@ -1,0 +1,16 @@
+:root{
+    --color:blue;
+    --font: 20px;
+    --back: black;
+    --fon: 900;
+    --radius: 15px;
+}
+
+
+p{
+    color: var(--color);
+    font-size: var(--font);
+    background-color: var(--back);
+    font-weight: var(--fon);
+    border-radius: var(--radius);
+}
