@@ -17,8 +17,7 @@ age < 18 ? console.log("Minor") : age >= 18 && isStudent ?console.log("Adult Stu
 let number = -14;
 
 
-number > 0 && number % 2 == 0? console.log("positive even") : 
-number > 0 && number % 2 == 1? console.log("positive odd") : number < 0 ? console.log("negative") : console.log("zero")
+number > 0 && number % 2 == 0? console.log("positive even") : number > 0 && number % 2 == 1? console.log("positive odd") : number < 0 ? console.log("negative") : console.log("zero")
 
 
 // დავალება 4
