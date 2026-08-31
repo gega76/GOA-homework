@@ -60,7 +60,7 @@ let analyzeNumbers = function(num1 , num2 , num3){
 // დავალება 6
 
 
-let analyzeText = function(text){
+let analyzeText = text => {
     console.log(text.length)
     console.log(text.toUpperCase())
     console.log(text.startswith("Hello"))
