@@ -95,4 +95,13 @@
 
 // let numbers = [10, 20, 30, 40, 50, 60, 70, 80];
 
-// ვერ  გავიგე
+// numbers[0] *= 2
+// numbers[1] *= 5
+// numbers[2] *= 2
+// numbers[3] *= 5
+// numbers[4] *= 2
+// numbers[5] *= 5
+// numbers[6] *= 2
+// numbers[7] *= 5
+
+// console.log(numbers)
