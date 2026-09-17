@@ -80,8 +80,7 @@
 
 
 // for(let i = names.length - 1; i > 0; i--){
-//     names[i] = names[i].trim()
-//     names[i] = names[i].toLowerCase()
+//     names[i] = names[i].trim().toLowerCase()
 //     names[i][0] = names[i][0].toUpperCase()
 //     if(names[i].includes("a")){
 //       count += 1
