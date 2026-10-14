@@ -39,11 +39,11 @@
 // დავალება 5
 
 
-// let list = [0, "გამარჯობა", "", null, undefined, "JS", false]
+let list = [0, "გამარჯობა", "", null, undefined, "JS", false]
 
-// let falsy = list.filter(fal => fal)
+let falsy = list.filter(fal => fal)
 
-// console.log(falsy)
+console.log(falsy)
 
 
 // დავალება 6
