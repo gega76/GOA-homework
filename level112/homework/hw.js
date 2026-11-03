@@ -126,7 +126,7 @@
 // for(let i of players){
 //     console.log(i.name , i.sport)
 
-//     if(i.sport == "Foorball"){
+//     if(i.sport == "Football"){
 //         console.log(i.name)
 //         count += 1
 //     }
