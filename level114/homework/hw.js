@@ -64,7 +64,7 @@
 //         return "PIN is hidden"
 //     },
 //     set newpin(pin){
-//         if(pin.length == 4){
+//         if(pin.length == 4 && typeof pin == "string"){
 //             this._pin = pin
 //         }else{
 //             console.log("PIN must contain exactly 4 digits!")
