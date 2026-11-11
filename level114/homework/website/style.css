@@ -152,6 +152,123 @@ main{
 }
 
 
+.section2{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+
+.txtdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.txtdiv2 h1{
+    font-size: 45px;
+    width: 600px;
+}
+
+.txtdiv2 p{
+    font-size: 16px;
+    width: 370px;
+    line-height: 1.5;
+}
+
+.imgdiv3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.samediv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    background-color: rgba(255, 240, 191, 1);
+    padding: 50px 25px 0px 25px;
+    border-radius: 35px;
+}
+
+.samediv h1{
+    font-size: 26px;
+}
+
+.samediv p{
+    font-size: 15px;
+    width: 450px;
+}
+
+.sdivimg{
+    width: 350px;
+}
+
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0px;
+    gap: 15px;
+}
+
+.s3div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.s3div h1{
+    font-size: 40px;
+}
+
+.s3div p{
+    font-size: 14px;
+}
+
+.section3 img{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 250px;
+}
+
+.same{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.same h1{
+    font-size: 75px;
+}
+
+.same p{
+    font-size: 13px;
+}
+
 @media(max-width: 1200px){
     header{
         gap: 100px;
@@ -210,6 +327,45 @@ main{
     #com{
         width: 50px;
     }
+
+    .txtdiv2{
+        gap: 35px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 35px;
+        width: 450px;
+    }
+
+    .txtdiv2 p{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .samediv h1{
+        font-size: 23px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+        width: 360px;
+    }
+
+    .sdivimg{
+        width: 300px;
+    }
+
+    .section2{
+        gap: 80px;
+    }
+
+    .all{
+        gap: 125px;
+    }
+
+    .same h1{
+        font-size: 65px;
+    }
 }
 
 
@@ -246,6 +402,57 @@ main{
     #com{
         width: 60px;
     }
+
+    .txtdiv2{
+        gap: 70px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .txtdiv2 p{
+        font-size: 14px;
+        width: 250px;
+    }
+
+    .samediv h1{
+        font-size: 22px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+        width: 290px;
+    }
+
+    .sdivimg{
+        width: 275px;
+    }
+
+    .section2{
+        gap: 80px;
+    }
+
+    .s3div h1{
+        font-size: 32px;
+    }
+
+    .s3div p{
+        font-size: 13px;
+    }
+
+    .all{
+        gap: 100px;
+    }
+
+    .same h1{
+        font-size: 55px;
+    }
+
+
+
+
 }
 
 
@@ -273,6 +480,61 @@ main{
         padding: 12px 25px;
     }
 
+    .txtdiv2{
+        gap: 30px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 26px;
+        width: 310px;
+    }
+
+    .txtdiv2 p{
+        font-size: 13px;
+        width: 205px;
+    }
+
+    .samediv h1{
+        font-size: 20px;
+    }
+
+    .samediv p{
+        font-size: 13px;
+        width: 245px;
+    }
+
+    .sdivimg{
+        width: 220px;
+    }
+
+    .section2{
+        gap: 80px;
+    }  
+
+    .imgdiv3{
+        gap: 35px;
+    }
+
+    .samediv{
+        padding: 50px 15px 0px 15px;
+    }
+
+
+    .same h1{
+        font-size: 35px;
+    }
+
+    .same p{
+        font-size: 11px;
+    }
+
+    .section3 img{
+        margin-top: 20px;
+    }
+
+    .all{
+        gap: 45px;
+    }
 }
 
 
@@ -333,5 +595,67 @@ main{
     .inputdiv button{
         padding: 15px 20px;
         font-size: 12px;
+    }
+
+
+    .txtdiv2{
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .txtdiv2 h1{
+        font-size: 30px;
+        width: 350px;
+    }
+
+    .txtdiv2 p{
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .imgdiv3{
+        flex-direction: column;
+    }
+
+    .section2{
+        gap: 30px;
+    }
+
+    .sdivimg{
+        width: 280px;
+    }
+
+    .samediv h1{
+        font-size: 23px;
+    }
+
+    .samediv p{
+        font-size: 14px;
+    }
+
+
+    .s3div h1{
+        font-size: 25px;
+    }
+
+    .s3div p{
+        font-size: 12px;
+    }
+
+    .all{
+        gap: 20px;
+    }
+
+    .same h1{
+        font-size: 30px;
+    }
+
+    .same p{
+        font-size: 11px;
+    }
+
+    .section3{
+        padding: 0px 10px;
     }
 }
