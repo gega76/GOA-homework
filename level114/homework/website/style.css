@@ -269,6 +269,86 @@ main{
     font-size: 13px;
 }
 
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    background-color: rgba(255, 206, 49, 1);
+    width: 100%;
+    padding: 150px 0px;
+    text-align: center;
+    gap: 40px;
+}
+
+.section4 h1{
+    font-size: 60px;
+    width: 800px;
+}
+
+.s4img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.s4img img{
+    width: 200px;
+}
+
+.section5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 135px 50px 135px;
+}
+
+.s5div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.s5div p{
+    width: 270px;
+    line-height: 1.5;
+}
+
+.holediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.lsame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.borderdiv{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    width: 83%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer p{
+    margin-bottom: 25px;
+}
+
+
 @media(max-width: 1200px){
     header{
         gap: 100px;
@@ -366,6 +446,10 @@ main{
     .same h1{
         font-size: 65px;
     }
+
+    .section5{
+        padding: 0px 90px 50px 90px;
+    }
 }
 
 
@@ -452,7 +536,38 @@ main{
 
 
 
+    .section4 h1{
+        font-size: 45px;
+        width: 600px;
+    }
 
+    .s4img img{
+        width: 185px;
+    }
+
+    .section4{
+        padding: 100px 0px;
+    }
+
+    .section5{
+        padding: 0px 50px 50px 50px;
+    }
+
+    .s5div p{
+        font-size: 15px;
+    }
+
+    .lsame p{
+        font-size: 14px;
+    }
+
+    .holediv{
+        gap: 45px;
+    }
+
+    .borderdiv{
+        width: 90%;
+    }
 }
 
 
@@ -534,6 +649,40 @@ main{
 
     .all{
         gap: 45px;
+    }
+
+    .section4 h1{
+        font-size: 35px;
+        width: 500px;
+    }
+
+    .s4img img{
+        width: 150px;
+    }
+
+    .section4{
+        padding: 85px 0px;
+    }
+
+    .s5div h1{
+        font-size: 25px;
+    }
+
+    .s5div p{
+        font-size: 13px;
+        width: 230px;
+    }
+
+    .lsame p{
+        font-size: 13px;
+    }
+
+    .holediv{
+        gap: 30px;
+    }
+
+    .section5{
+        padding: 0px 30px 50px 30px;
     }
 }
 
@@ -657,5 +806,40 @@ main{
 
     .section3{
         padding: 0px 10px;
+    }
+
+
+    .section4 h1{
+        font-size: 28px;
+        width: 91%;
+    }
+
+    .s4img img{
+        width: 125px;
+    }
+
+    .section4{
+        padding: 85px 0px;
+    }
+
+
+    .section5{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .s5div{
+        align-items: center;
+    }
+    .s5div p{
+        width: 90%;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+
+    .borderdiv{
+        width: 95%;
     }
 }
