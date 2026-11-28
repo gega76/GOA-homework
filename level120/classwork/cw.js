@@ -50,7 +50,7 @@ const students = ["Goga", "Nika", "Ana", "Luka", "Mariam", "Gio"];
 
 let [name , name2 , ...otherStudents] = students
 
-console.log(name , name2 , otherStudents)
+console.log(name , name2 , otherStudents)``
 
 let updated = [...otherStudents , "Saba"]
 
